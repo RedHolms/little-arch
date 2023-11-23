@@ -1,0 +1,60 @@
+{
+  "configurations": [
+    {
+      "name": "IntelliSense Debug x86 MSVC",
+      "buildRoot": "${projectDir}/.vs/cmake/${name}",
+      "inheritEnvironments": [ "msvc_x86_x64" ],
+      "configurationType": "Debug",
+      "generator": "Ninja"
+    },
+    {
+      "name": "IntelliSense Release x86 MSVC",
+      "buildRoot": "${projectDir}/.vs/cmake/${name}",
+      "inheritEnvironments": [ "msvc_x86_x64" ],
+      "configurationType": "RelWithDebInfo",
+      "generator": "Ninja"
+    },
+    {
+      "name": "IntelliSense Debug x64 MSVC",
+      "buildRoot": "${projectDir}/.vs/cmake/${name}",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "configurationType": "Debug",
+      "generator": "Ninja"
+    },
+    {
+      "name": "IntelliSense Release x64 MSVC",
+      "buildRoot": "${projectDir}/.vs/cmake/${name}",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "configurationType": "RelWithDebInfo",
+      "generator": "Ninja"
+    },
+    {
+      "name": "IntelliSense Debug x86 Clang",
+      "buildRoot": "${projectDir}/.vs/cmake/${name}",
+      "inheritEnvironments": [ "clang_cl_x86_x64" ],
+      "configurationType": "Debug",
+      "generator": "Ninja"
+    },
+    {
+      "name": "IntelliSense Release x86 Clang",
+      "buildRoot": "${projectDir}/.vs/cmake/${name}",
+      "inheritEnvironments": [ "clang_cl_x86_x64" ],
+      "configurationType": "RelWithDebInfo",
+      "generator": "Ninja"
+    },
+    {
+      "name": "IntelliSense Debug x64 Clang",
+      "buildRoot": "${projectDir}/.vs/cmake/${name}",
+      "inheritEnvironments": [ "clang_cl_x64_x64" ],
+      "configurationType": "Debug",
+      "generator": "Ninja"
+    },
+    {
+      "name": "IntelliSense Release x64 Clang",
+      "buildRoot": "${projectDir}/.vs/cmake/${name}",
+      "inheritEnvironments": [ "clang_cl_x64_x64" ],
+      "configurationType": "RelWithDebInfo",
+      "generator": "Ninja"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+We have 3 general registers:
+  R0 - accumulator 1
+  R1 - accumulator 2
+  CX - counter
+
+00h             ADD           R0 = R0 + R1
+01h             SUB           R0 = R0 - R1
+02h XXh         LD0 xx        R0 = XXh
+03h             SWP           TMP = R0; R0 = R1; R1 = TMP
+04h XXh LLh     MRD LLXXh     R0 = byte ptr [XXXXh]
+05h XXh LLh     MWR LLXXh     byte ptr [XXXXh] = R0
+06h             CPX           CX = R0
+07h XXh LLh     JMP LLXXh     IP = XXXXh
+08h             NOP
+09h             AND           R0 = R0 & R1
+0Ah             BOR           R0 = R0 | R1
+0Bh             XOR           R0 = R0 ^ R1
+0Ch             NOT           R0 = ~R0
+0Dh             HLT           <halt cpu>
